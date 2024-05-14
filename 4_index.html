@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealPhone</title>
+    <link rel="stylesheet" href="4_style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="new folder\images\logo.png" alt="">
+            </div>
+            <div class="horlist">
+                <ul>
+                    <li>
+                        <a href="#home"> Home</a>
+                    </li>
+                    <li>
+                        <a href="#phone"> Phone</a>
+                    </li>
+                    <li>
+                        <a href="#access"> Accessories</a>
+                    </li>
+                    <li>
+                        <a href="#cart"> Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="information">
+            <div class="over"></div>
+            <img  class=" mobile"src="new folder\images\mobile.png" alt="">
+            <div id="circle">
+                <div class="feature one">
+                    <img src="new folder\images\camera.png" alt="">
+                    <div>
+                        <h1>Camera</h1>
+                        <p>12MP,Wide Angles lens</p>
+                    </div>                                       
+                </div>
+                <div class="feature two">
+                    <img src="new folder\images\processor.png" alt="">
+                    <div>
+                        <h1>Processor</h1>
+                        <p>Snapdragon Octa-Core 11nm</p>
+                    </div>
+                </div>
+                <div class="feature three">
+                    <img src="new folder\images\display.png" alt="">
+                    <div>
+                        <h1>Display</h1>
+                        <p>6.5" Mini-Drop FullScreen</p>
+                    </div>
+                </div>
+                <div class="feature four">
+                    <img src="new folder\images\battery.png" alt="">
+                    <div>
+                        <h1>Battery Life</h1>
+                        <p>5000mAh, 720Hrs Standby</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="controls">
+            <img src="new folder\images\arrow.png" alt="" id="up">
+            <h3>Features</h3>
+            <img src="new folder\images\arrow.png" alt="" id="down">
+        </div>   
+    </div>
+    <script >
+        var cir= document.getElementById("circle");
+        var ub= document.getElementById("up");
+        var db= document.getElementById("down");
+
+        var rv=circle.style.transform;
+        var rs;
+        up.onclick=function(){
+        rs=rv+"rotate(-90deg)";
+        circle.style.transform=rs;
+        rv=rs;
+        };
+        down.onclick=function(){
+        rs=rv+"rotate(90deg)";
+        circle.style.transform=rs;
+        rv=rs;
+        }
+    </script>
+</body>
+</html>
